@@ -469,7 +469,7 @@ class Finite_automata:
             return True
     def check(self):
         is_not_alphabet = 0
-        input_languagle = input('Nhap ngon ngu cua ban: ')
+        input_languagle = input()
         self.resetCurrentStates()
         print(self.current_states)
         self.define_current()
